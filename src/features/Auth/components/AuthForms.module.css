@@ -1,0 +1,13 @@
+/* src/features/Auth/components/AuthForms.module.css */
+.form {
+  max-width: 480px;
+  margin: auto;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+}
+.err {
+  color: #ef4444;
+  margin-bottom: 8px;
+}
