@@ -1,0 +1,17 @@
+/* src/components/common/Button/Button.module.css */
+.btn {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--primary, #2563eb);
+  color: white;
+  font-weight: 600;
+}
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

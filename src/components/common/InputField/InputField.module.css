@@ -1,0 +1,17 @@
+/* src/components/common/InputField/InputField.module.css */
+.wrap {
+  display: block;
+  margin-bottom: 12px;
+}
+.label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6eef8;
+  font-size: 14px;
+}

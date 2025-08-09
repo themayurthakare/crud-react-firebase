@@ -1,0 +1,30 @@
+/* src/components/layout/Header/Header.module.css */
+.header {
+  background: white;
+  border-bottom: 1px solid #e6eef8;
+  padding: 10px 0;
+}
+.brand {
+  font-weight: 700;
+  color: #2563eb;
+  font-size: 18px;
+}
+.nav {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.small {
+  font-size: 13px;
+  color: #6b7280;
+  margin-right: 6px;
+}
+.btn {
+  background: #2563eb;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
