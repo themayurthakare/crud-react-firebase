@@ -32,9 +32,14 @@ export default function Header() {
               </button>
             </>
           ) : (
-            <Link to="/login" className={styles.btn}>
-              Login
-            </Link>
+            <div>
+              <Link to="/login" className={styles.btn}>
+                Login
+              </Link>
+              <Link to="/register" className={styles.btn}>
+                Register
+              </Link>
+            </div>
           )}
         </nav>
       </div>
